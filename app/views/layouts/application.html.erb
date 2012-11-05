@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chris H. Russell-Walker - Web Developer, Bassist, Cook, Brewer, Optimist, Coffee Drinker</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "lightbox", :media => "all" %>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+  <script type="text/javascript" src="assets/scriptaculous.js?load=effects,builder"></script>
+  <script type="text/javascript" src="assets/lightbox.js"></script>
+  
+  <meta name="keywords" content="developer, php, html, css, html5, css3, open source, web design, cambridge, boston, ma" />
+  <meta name="description" content="Chris H. Russell-Walker - Web Developer, Bassist, Cook, Brewer, Optimist, Coffee Drinker" />
+	<meta name="robots" content="index, follow" />
+  <link href=<%=asset_path "cleanslaytlogo.png"%> rel="icon" type="image/png" />
+  <%= csrf_meta_tags %>
+</head>
+<body id="page-<%=params[:action] %>"> <!-- page specific ID -->
+<!-- Main UI -->
+<div id="allcontent">
+  <div id="container">
+    <div id="top">
+      <a id="header-logo" href="/">Chris H. Russell-Walker</a>
+      <h1><a href="/" id="masthead"><em>c.h.r.-w.</em></a></h1>
+    </div>
+    <div id="content">
+      <div id="content-text">
+        <div id="top-nav">
+          <div id="top-nav-content">
+            <div class="nav-item">
+                <a href="/"><!-- ENV variable -->
+                   <img src=<%=asset_path "home.png"%> alt="Home" />
+                   <span class="nav-link">home</span>
+                </a> 
+            </div>
+            <div class="nav-item">
+                <a href="/portfolio">
+                   <img src=<%=asset_path "portfolio.png"%> alt="Portfolio" />
+                   <span class="nav-link">portfolio</span>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="/resume">
+                   <img src=<%=asset_path "resume.png"%> alt="Resume" />
+                   <span class="nav-link">resum&#233;</span>
+                </a> 
+            </div>
+            <div class="nav-item">
+                <a href="mailto:c.russell.walker@gmail.com">
+                   <img src=<%=asset_path "email.png"%> alt="Contact" />
+                   <span class="nav-link">contact</span>
+                </a>
+            </div>
+          </div>
+        </div><!-- End #top-nav -->
+<%= yield %>
+      </div><!-- #content-text -->
+      <div id="footer">
+        <ul class="bottom-icons">
+          <li><a href="http://www.linkedin.com/in/chrisrussellwalker" target="_blank">Linked In Profile</a></li>
+          <!-- <li><a href="http://www.twitter.com/cleanslayt" target="_blank">Twitter Profile</a></li> -->
+        </ul>
+        <ul class="bottom-nav">
+          <li><a href="/">home</a></li>
+          <li><a href="/portfolio">portfolio</a></li>
+          <li><a href="/resume">resum&#233;</a></li>
+          <li class="last"><a href="mailto:c.russell.walker@gmail.com">contact</a></li>
+        </ul>
+      </div>
+    </div><!-- End #content-->
+  </div><!-- End #container -->
+</div><!-- End #allcontent -->
+
+</body>
+</html>
