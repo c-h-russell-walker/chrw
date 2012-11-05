@@ -15,12 +15,12 @@
   <link href=<%=asset_path "cleanslaytlogo.png"%> rel="icon" type="image/png" />
   <%= csrf_meta_tags %>
 </head>
-<body id="page-index"> <!-- TODO page id -->
+<body id="page-<%=params[:action] %>"> <!-- page specific ID -->
 <!-- Main UI -->
 <div id="allcontent">
   <div id="container">
     <div id="top">
-      <a id="header-logo" href="/">Chris H. Russell-Walker</a><!-- ENV variable ??? -->
+      <a id="header-logo" href="/">Chris H. Russell-Walker</a>
       <h1><a href="/" id="masthead"><em>c.h.r.-w.</em></a></h1>
     </div>
     <div id="content">
