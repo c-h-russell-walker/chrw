@@ -9,6 +9,7 @@ ChrwRails::Application.routes.draw do
   # Keep in mind you can assign values other than :controller and :action
   match 'resume' => 'index#resume'
   match 'portfolio' => 'index#portfolio'
+  match 'pdf' => 'index#pdf'
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase

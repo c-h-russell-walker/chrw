@@ -1,13 +1,11 @@
 class IndexController < ApplicationController
   def index
   end
-  def resume
-  	respond_to do |format|
-  		format.html
-      format.pdf { render :file => "app/assets/resources/resume.pdf" }
-  		#format.pdf {render :file => 'app\assets\resources\resume.pdf', 
-  		#									 :disposition => 'inline',
-      #									 :content_type => 'application/pdf'}
-  	end
+  def pdf
+    pdf_filename = File.join(Rails.root, "app/assets/resources/resume.pdf")
+    send_file(pdf_filename, :filename => "resume.pdf", 
+                            :disposition => 'inline', 
+                            :type => "application/pdf")
   end
+
 end
