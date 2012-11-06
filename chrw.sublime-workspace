@@ -15,7 +15,7 @@
 			"file": "app/controllers/index_controller.rb",
 			"settings":
 			{
-				"buffer_size": 670,
+				"buffer_size": 328,
 				"line_ending": "Unix"
 			}
 		},
@@ -31,8 +31,8 @@
 			"file": "app/views/index/resume.html.erb",
 			"settings":
 			{
-				"buffer_size": 4520,
-				"line_ending": "Unix"
+				"buffer_size": 4505,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -48,7 +48,7 @@
 			"settings":
 			{
 				"buffer_size": 4786,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -56,6 +56,14 @@
 			"settings":
 			{
 				"buffer_size": 2531,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/index/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 1446,
 				"line_ending": "Unix"
 			}
 		}
@@ -102,7 +110,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\Sites\\chrw_rails\\app\\assets\\javascripts"
@@ -141,7 +149,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -149,15 +157,15 @@
 					"file": "app/controllers/index_controller.rb",
 					"settings":
 					{
-						"buffer_size": 670,
+						"buffer_size": 328,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								670,
-								670
+								63,
+								63
 							]
 						],
 						"settings":
@@ -206,24 +214,25 @@
 					"file": "app/views/index/resume.html.erb",
 					"settings":
 					{
-						"buffer_size": 4520,
+						"buffer_size": 4505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								129,
-								129
+								1429,
+								1429
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 195.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -268,8 +277,8 @@
 						"selection":
 						[
 							[
-								4387,
-								4387
+								4398,
+								4398
 							]
 						],
 						"settings":
@@ -278,7 +287,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3575.0,
+						"translation.y": 3726.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -307,6 +316,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/index/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 1446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
