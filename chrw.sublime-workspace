@@ -12,22 +12,6 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/index_controller.rb",
-			"settings":
-			{
-				"buffer_size": 328,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 3167,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/views/index/resume.html.erb",
 			"settings":
 			{
@@ -36,18 +20,10 @@
 			}
 		},
 		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1915,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/assets/stylesheets/application.css.scss.erb",
 			"settings":
 			{
-				"buffer_size": 4786,
+				"buffer_size": 4774,
 				"line_ending": "Windows"
 			}
 		},
@@ -92,15 +68,17 @@
 	},
 	"file_history":
 	[
+		"/C/Sites/chrw_rails/app/assets/stylesheets/index.css.scss",
 		"/C/Sites/chrw_rails/config/routes.rb",
+		"/C/Sites/chrw_rails/app/views/layouts/application.html.erb",
+		"/C/Sites/chrw_rails/app/controllers/index_controller.rb",
+		"/C/Sites/chrw_rails/app/assets/stylesheets/application.css.scss.erb",
 		"/C/Sites/chrw_rails/app/assets/stylesheets/lightbox.css",
 		"/C/Sites/chrw_rails/app/assets/javascripts/lightbox.js",
 		"/C/Sites/chrw_rails/app/views/index/portfolio.html.erb",
-		"/C/Sites/chrw_rails/app/assets/stylesheets/application.css.scss.erb",
 		"/C/Sites/chrw_rails/app/controllers/application_controller.rb",
 		"/C/Sites/chrw_rails/app/views/index/index.html.erb",
 		"/C/Sites/chrw_rails/app/assets/resources/resume.pdf",
-		"/C/Sites/chrw_rails/app/controllers/index_controller.rb",
 		"/C/Sites/chrw_rails/app/assets/stylesheets/application.css",
 		"/C/Sites/chrw_rails/chrw"
 	],
@@ -149,68 +127,11 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/index_controller.rb",
-					"settings":
-					{
-						"buffer_size": 328,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								63,
-								63
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 3167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1020,
-								1020
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "app/views/index/resume.html.erb",
 					"settings":
 					{
@@ -221,8 +142,8 @@
 						"selection":
 						[
 							[
-								1429,
-								1429
+								2711,
+								2711
 							]
 						],
 						"settings":
@@ -238,47 +159,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 1915,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								386,
-								386
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 1,
 					"file": "app/assets/stylesheets/application.css.scss.erb",
 					"settings":
 					{
-						"buffer_size": 4786,
+						"buffer_size": 4774,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4398,
-								4398
+								4339,
+								4339
 							]
 						],
 						"settings":
@@ -287,13 +180,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3726.0,
+						"translation.y": 3719.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "config/environments/production.rb",
 					"settings":
 					{
@@ -321,7 +214,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 3,
 					"file": "app/views/index/index.html.erb",
 					"settings":
 					{
