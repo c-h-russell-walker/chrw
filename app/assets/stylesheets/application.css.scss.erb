@@ -2,6 +2,47 @@
  * Application stylesheet
  */
 /* BASE STYLES */
+@font-face {
+    font-family: 'GreyscaleBasicRegular';
+    src: asset-url('Greyscale_Basic_Regular-webfont.eot', font);
+    src: asset-url('Greyscale_Basic_Regular-webfont.eot?#iefix', font) format('embedded-opentype'),
+         asset-url('Greyscale_Basic_Regular-webfont.woff', font) format('woff'),
+         asset-url('Greyscale_Basic_Regular-webfont.ttf', font) format('truetype'),
+         asset-url('Greyscale_Basic_Regular-webfont.svg#BebasRegular', font) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GreyscaleBasicItalic';
+    src: asset-url('Greyscale_Basic_Regular_Italic-webfont.eot', font);
+    src: asset-url('Greyscale_Basic_Regular_Italic-webfont.eot?#iefix', font) format('embedded-opentype'),
+         asset-url('Greyscale_Basic_Regular_Italic-webfont.woff', font) format('woff'),
+         asset-url('Greyscale_Basic_Regular_Italic-webfont.ttf', font) format('truetype'),
+         asset-url('Greyscale_Basic_Regular_Italic-webfont.svg#BebasRegular', font) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GreyscaleBasicBold';
+    src: asset-url('Greyscale_Basic_Bold-webfont.eot', font);
+    src: asset-url('Greyscale_Basic_Bold-webfont.eot?#iefix', font) format('embedded-opentype'),
+         asset-url('Greyscale_Basic_Bold-webfont.woff', font) format('woff'),
+         asset-url('Greyscale_Basic_Bold-webfont.ttf', font) format('truetype'),
+         asset-url('Greyscale_Basic_Bold-webfont.svg#BebasRegular', font) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GreyscaleBasicBoldItalic';
+    src: asset-url('Greyscale_Basic_Bold_Italic-webfont.eot', font);
+    src: asset-url('Greyscale_Basic_Bold_Italic-webfont.eot?#iefix', font) format('embedded-opentype'),
+         asset-url('Greyscale_Basic_Bold_Italic-webfont.woff', font) format('woff'),
+         asset-url('Greyscale_Basic_Bold_Italic-webfont.ttf', font) format('truetype'),
+         asset-url('Greyscale_Basic_Bold_Italic-webfont.svg#BebasRegular', font) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -20,7 +61,7 @@ ul ul {
 }
 body {
 	text-align: center;
-	font-family: tahoma;
+	font-family: 'GreyscaleBasicRegular', sans-serif;
 	font-size: small;
 	background: #000;
 	background-color: #000;
@@ -136,19 +177,27 @@ p {
 }
 #footer a:hover {
 	color: #fff;
+	display: inline-block;
 	text-shadow: 2px 2px 2px #C80000;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
 }
 #footer ul li.last {
 	border-right: none;
 }
-#footer .bottom-nav {
+#footer {
 	background-color: #864544;
 	background-image: linear-gradient(top, #fff, #691917);
 	background-image: -moz-linear-gradient(top, #fff, #691917);
 	background-image: -webkit-gradient(linear, left top, left bottom,
 																			color-stop(0, #fff),
 																			color-stop(1, #691917));
-	padding-top: 18px;
+}
+#footer .bottom-nav {
+	clear: right;
 	text-align: center;
 	list-style: none;
 }
@@ -170,7 +219,12 @@ p {
 	display: block;
 	width: 40px;
 	height: 40px;
+}
+#footer .bottom-icons a#linkedin-icon {
 	background: url(<%=asset_path "linkedin-icon-small.png"%>) no-repeat;
+}
+#footer .bottom-icons a#twitter-icon {
+	background: url(<%=asset_path "twitter-icon-small.png"%>) no-repeat;
 }
 #footer .bottom-icons a:hover {
 	-webkit-transform: scale(1.1);
@@ -237,13 +291,12 @@ h4.intro {
 	margin: auto;
 	margin-bottom: 5px;
 }
-#top-nav-content .nav-item .nav-link {
-	font-size: 7.5pt;
-	font-weight: 900;
-}
 #top-nav-content a:hover img {
 	position: relative;
 	top: 5px;
+}
+#top-nav-content a:hover span {
+	font-weight: bold;
 }
 #content-text {
 	margin-left: 5%;

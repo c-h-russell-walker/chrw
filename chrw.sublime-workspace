@@ -15,7 +15,7 @@
 			"file": "app/views/index/resume.html.erb",
 			"settings":
 			{
-				"buffer_size": 4505,
+				"buffer_size": 4513,
 				"line_ending": "Windows"
 			}
 		},
@@ -23,7 +23,7 @@
 			"file": "app/assets/stylesheets/application.css.scss.erb",
 			"settings":
 			{
-				"buffer_size": 4774,
+				"buffer_size": 5580,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,7 +39,15 @@
 			"file": "app/views/index/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 1446,
+				"buffer_size": 1447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 3296,
 				"line_ending": "Unix"
 			}
 		}
@@ -88,9 +96,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Sites\\chrw_rails",
 			"C:\\Sites\\chrw_rails\\app\\assets\\javascripts"
 		]
 	},
@@ -99,6 +108,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h1",
+			"-league",
+			"float",
+			"font-fa",
+			"font",
+			"em",
+			"#con",
+			"contain",
+			"brick",
+			"header-lo",
+			"#top",
+			"head",
 			"separa",
 			"h2",
 			"gif",
@@ -127,7 +148,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -135,15 +156,15 @@
 					"file": "app/views/index/resume.html.erb",
 					"settings":
 					{
-						"buffer_size": 4505,
+						"buffer_size": 4513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2711,
-								2711
+								2310,
+								2310
 							]
 						],
 						"settings":
@@ -153,7 +174,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 195.0,
+						"translation.y": 1470.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -163,24 +184,25 @@
 					"file": "app/assets/stylesheets/application.css.scss.erb",
 					"settings":
 					{
-						"buffer_size": 4774,
+						"buffer_size": 5580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4339,
-								4339
+								2918,
+								2918
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3719.0,
+						"translation.y": 2280.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -218,15 +240,15 @@
 					"file": "app/views/index/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 1446,
+						"buffer_size": 1447,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								220,
-								220
+								1447,
+								1447
 							]
 						],
 						"settings":
@@ -235,6 +257,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 3296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3296,
+								3296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 375.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -298,6 +348,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 197.0,
+	"side_bar_width": 192.0,
 	"status_bar_visible": true
 }
